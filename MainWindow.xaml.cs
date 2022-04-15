@@ -24,5 +24,9 @@ namespace Kalkulator
         {
             InitializeComponent();
         }
+        private void Button(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Button was clicked.");
+        }
     }
 }
